@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE409A662361B74A0016F847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A652361B74A0016F847 /* AppDelegate.swift */; };
+		EE409A682361B74A0016F847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A672361B74A0016F847 /* SceneDelegate.swift */; };
+		EE409A6B2361B74A0016F847 /* Map_Duck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE409A692361B74A0016F847 /* Map_Duck.xcdatamodeld */; };
+		EE409A6D2361B74A0016F847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A6C2361B74A0016F847 /* ContentView.swift */; };
+		EE409A6F2361B74B0016F847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE409A6E2361B74B0016F847 /* Assets.xcassets */; };
+		EE409A722361B74B0016F847 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE409A712361B74B0016F847 /* Preview Assets.xcassets */; };
+		EE409A752361B74B0016F847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE409A732361B74B0016F847 /* LaunchScreen.storyboard */; };
+		EE409A7E2361D01B0016F847 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A7D2361D01B0016F847 /* Dao.swift */; };
+		EE409A832361D11A0016F847 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A7F2361D11A0016F847 /* Tag+CoreDataClass.swift */; };
+		EE409A842361D11A0016F847 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A802361D11A0016F847 /* Tag+CoreDataProperties.swift */; };
+		EE409A852361D11A0016F847 /* SavedLocation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A812361D11A0016F847 /* SavedLocation+CoreDataClass.swift */; };
+		EE409A862361D11A0016F847 /* SavedLocation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A822361D11A0016F847 /* SavedLocation+CoreDataProperties.swift */; };
+		EE409A892361DA240016F847 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A882361DA240016F847 /* CircularButton.swift */; };
+		EE409A8B2362080D0016F847 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409A8A2362080D0016F847 /* Locator.swift */; };
+		EE496D0B2363307800CB8709 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE496D0A2363307800CB8709 /* HomeView.swift */; };
+		EE496D0D2363383900CB8709 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE496D0C2363383900CB8709 /* LocationsList.swift */; };
+		EE496D0F23638ACC00CB8709 /* CircularNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE496D0E23638ACC00CB8709 /* CircularNavigationLink.swift */; };
+		EE62CF2D236848D900E0AC5D /* EditLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62CF2C236848D900E0AC5D /* EditLocationView.swift */; };
+		EE67E0D923640BD20042E9C1 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67E0D823640BD20042E9C1 /* TagView.swift */; };
+		EE84F207236B5A52004135C7 /* LocationListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84F206236B5A52004135C7 /* LocationListItem.swift */; };
+		EE8A1188236864DA00AB6A58 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A1187236864DA00AB6A58 /* TextArea.swift */; };
+		EEC450852369D5B100890045 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC450842369D5B100890045 /* ShareSheetView.swift */; };
+		EEC7A70F23660C1E00B16C8D /* SavedLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A70E23660C1E00B16C8D /* SavedLocationView.swift */; };
+		EEC7A711236610FF00B16C8D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A710236610FF00B16C8D /* MapView.swift */; };
+		EEC7A7132366213300B16C8D /* TagsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A7122366213300B16C8D /* TagsList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE409A622361B74A0016F847 /* Mapmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE409A652361B74A0016F847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE409A672361B74A0016F847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE409A6A2361B74A0016F847 /* Map_Duck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Map_Duck.xcdatamodel; sourceTree = "<group>"; };
+		EE409A6C2361B74A0016F847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE409A6E2361B74B0016F847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE409A712361B74B0016F847 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE409A742361B74B0016F847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE409A762361B74B0016F847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE409A7D2361D01B0016F847 /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		EE409A7F2361D11A0016F847 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EE409A802361D11A0016F847 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EE409A812361D11A0016F847 /* SavedLocation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedLocation+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EE409A822361D11A0016F847 /* SavedLocation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedLocation+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EE409A882361DA240016F847 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		EE409A8A2362080D0016F847 /* Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
+		EE496D0A2363307800CB8709 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE496D0C2363383900CB8709 /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		EE496D0E23638ACC00CB8709 /* CircularNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularNavigationLink.swift; sourceTree = "<group>"; };
+		EE62CF2C236848D900E0AC5D /* EditLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLocationView.swift; sourceTree = "<group>"; };
+		EE67E0D823640BD20042E9C1 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		EE84F206236B5A52004135C7 /* LocationListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListItem.swift; sourceTree = "<group>"; };
+		EE8A1187236864DA00AB6A58 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		EEC450842369D5B100890045 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		EEC450862369EBE700890045 /* Map Duck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Map Duck.entitlements"; sourceTree = "<group>"; };
+		EEC7A70E23660C1E00B16C8D /* SavedLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationView.swift; sourceTree = "<group>"; };
+		EEC7A710236610FF00B16C8D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EEC7A7122366213300B16C8D /* TagsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE409A5F2361B74A0016F847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE409A592361B74A0016F847 = {
+			isa = PBXGroup;
+			children = (
+				EE409A642361B74A0016F847 /* Map Duck */,
+				EE409A632361B74A0016F847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE409A632361B74A0016F847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE409A622361B74A0016F847 /* Mapmark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE409A642361B74A0016F847 /* Map Duck */ = {
+			isa = PBXGroup;
+			children = (
+				EEC450862369EBE700890045 /* Map Duck.entitlements */,
+				EE496D0923632FF200CB8709 /* Views */,
+				EE409A872361DA0F0016F847 /* Supporting Views */,
+				EE409A7C2361CFDF0016F847 /* Data Persistence */,
+				EE409A652361B74A0016F847 /* AppDelegate.swift */,
+				EE409A672361B74A0016F847 /* SceneDelegate.swift */,
+				EE409A8A2362080D0016F847 /* Locator.swift */,
+				EE409A6E2361B74B0016F847 /* Assets.xcassets */,
+				EE409A732361B74B0016F847 /* LaunchScreen.storyboard */,
+				EE409A762361B74B0016F847 /* Info.plist */,
+				EE409A692361B74A0016F847 /* Map_Duck.xcdatamodeld */,
+				EE409A702361B74B0016F847 /* Preview Content */,
+			);
+			path = "Map Duck";
+			sourceTree = "<group>";
+		};
+		EE409A702361B74B0016F847 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE409A712361B74B0016F847 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE409A7C2361CFDF0016F847 /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				EE409A7F2361D11A0016F847 /* Tag+CoreDataClass.swift */,
+				EE409A802361D11A0016F847 /* Tag+CoreDataProperties.swift */,
+				EE409A812361D11A0016F847 /* SavedLocation+CoreDataClass.swift */,
+				EE409A822361D11A0016F847 /* SavedLocation+CoreDataProperties.swift */,
+				EE409A7D2361D01B0016F847 /* Dao.swift */,
+			);
+			path = "Data Persistence";
+			sourceTree = "<group>";
+		};
+		EE409A872361DA0F0016F847 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE67E0D823640BD20042E9C1 /* TagView.swift */,
+				EEC7A7122366213300B16C8D /* TagsList.swift */,
+				EE409A882361DA240016F847 /* CircularButton.swift */,
+				EE496D0E23638ACC00CB8709 /* CircularNavigationLink.swift */,
+				EEC7A710236610FF00B16C8D /* MapView.swift */,
+				EE8A1187236864DA00AB6A58 /* TextArea.swift */,
+				EEC450842369D5B100890045 /* ShareSheetView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		EE496D0923632FF200CB8709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE409A6C2361B74A0016F847 /* ContentView.swift */,
+				EE496D0A2363307800CB8709 /* HomeView.swift */,
+				EE496D0C2363383900CB8709 /* LocationsList.swift */,
+				EEC7A70E23660C1E00B16C8D /* SavedLocationView.swift */,
+				EE62CF2C236848D900E0AC5D /* EditLocationView.swift */,
+				EE84F206236B5A52004135C7 /* LocationListItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE409A612361B74A0016F847 /* Mapmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE409A792361B74B0016F847 /* Build configuration list for PBXNativeTarget "Mapmark" */;
+			buildPhases = (
+				EE409A5E2361B74A0016F847 /* Sources */,
+				EE409A5F2361B74A0016F847 /* Frameworks */,
+				EE409A602361B74A0016F847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapmark;
+			productName = "Map Duck";
+			productReference = EE409A622361B74A0016F847 /* Mapmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE409A5A2361B74A0016F847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Idan Birman";
+				TargetAttributes = {
+					EE409A612361B74A0016F847 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = EE409A5D2361B74A0016F847 /* Build configuration list for PBXProject "Mapmark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE409A592361B74A0016F847;
+			productRefGroup = EE409A632361B74A0016F847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE409A612361B74A0016F847 /* Mapmark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE409A602361B74A0016F847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE409A752361B74B0016F847 /* LaunchScreen.storyboard in Resources */,
+				EE409A722361B74B0016F847 /* Preview Assets.xcassets in Resources */,
+				EE409A6F2361B74B0016F847 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE409A5E2361B74A0016F847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE409A6B2361B74A0016F847 /* Map_Duck.xcdatamodeld in Sources */,
+				EE409A662361B74A0016F847 /* AppDelegate.swift in Sources */,
+				EEC7A7132366213300B16C8D /* TagsList.swift in Sources */,
+				EE409A8B2362080D0016F847 /* Locator.swift in Sources */,
+				EE409A6D2361B74A0016F847 /* ContentView.swift in Sources */,
+				EE409A7E2361D01B0016F847 /* Dao.swift in Sources */,
+				EE409A892361DA240016F847 /* CircularButton.swift in Sources */,
+				EE8A1188236864DA00AB6A58 /* TextArea.swift in Sources */,
+				EE62CF2D236848D900E0AC5D /* EditLocationView.swift in Sources */,
+				EE409A852361D11A0016F847 /* SavedLocation+CoreDataClass.swift in Sources */,
+				EE409A842361D11A0016F847 /* Tag+CoreDataProperties.swift in Sources */,
+				EE409A832361D11A0016F847 /* Tag+CoreDataClass.swift in Sources */,
+				EEC7A711236610FF00B16C8D /* MapView.swift in Sources */,
+				EE84F207236B5A52004135C7 /* LocationListItem.swift in Sources */,
+				EEC450852369D5B100890045 /* ShareSheetView.swift in Sources */,
+				EEC7A70F23660C1E00B16C8D /* SavedLocationView.swift in Sources */,
+				EE496D0B2363307800CB8709 /* HomeView.swift in Sources */,
+				EE409A682361B74A0016F847 /* SceneDelegate.swift in Sources */,
+				EE67E0D923640BD20042E9C1 /* TagView.swift in Sources */,
+				EE409A862361D11A0016F847 /* SavedLocation+CoreDataProperties.swift in Sources */,
+				EE496D0F23638ACC00CB8709 /* CircularNavigationLink.swift in Sources */,
+				EE496D0D2363383900CB8709 /* LocationsList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE409A732361B74B0016F847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE409A742361B74B0016F847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE409A772361B74B0016F847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE409A782361B74B0016F847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE409A7A2361B74B0016F847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Map Duck/Map Duck.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Map Duck/Preview Content\"";
+				DEVELOPMENT_TEAM = U9TL8NUVF6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Map Duck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idanbirman.Map-Duck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE409A7B2361B74B0016F847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Map Duck/Map Duck.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Map Duck/Preview Content\"";
+				DEVELOPMENT_TEAM = U9TL8NUVF6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Map Duck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idanbirman.Map-Duck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE409A5D2361B74A0016F847 /* Build configuration list for PBXProject "Mapmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE409A772361B74B0016F847 /* Debug */,
+				EE409A782361B74B0016F847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE409A792361B74B0016F847 /* Build configuration list for PBXNativeTarget "Mapmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE409A7A2361B74B0016F847 /* Debug */,
+				EE409A7B2361B74B0016F847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE409A692361B74A0016F847 /* Map_Duck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE409A6A2361B74A0016F847 /* Map_Duck.xcdatamodel */,
+			);
+			currentVersion = EE409A6A2361B74A0016F847 /* Map_Duck.xcdatamodel */;
+			path = Map_Duck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE409A5A2361B74A0016F847 /* Project object */;
+}
